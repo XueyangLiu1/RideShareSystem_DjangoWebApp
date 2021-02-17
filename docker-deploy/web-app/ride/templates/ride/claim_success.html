@@ -1,0 +1,25 @@
+{% extends "users/base.html" %}
+<head>
+    <title>Claim Ride Success</title>
+</head>
+{% block content%}
+<h3>You have successfully claim a ride!</h3>
+<br>
+<body>
+<a href="/driver_view_confirmed/">Back to driver ride list</a>
+</body>
+{% endblock %}
+{% block sidebar %}
+<div class="col-md-4">
+    <div class="content-section">
+    <h3>Driver Sidebar</h3>
+    <p class='text-muted'>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-light"><a href="{% url 'driver' %}">Driver personal info</a></li>
+            <li class="list-group-item list-group-item-light"><a href="{% url 'driver_search_ride' %}">Look for open rides</a></li>
+            <li class="list-group-item list-group-item-light"><a href="{% url 'driver_view_confirmed' %}">Confirmed and Completed Rides</a></li>
+        </ul>
+    </p>
+    </div>
+</div>
+{% endblock %}
