@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mosiqi1996@gmail.com'
-EMAIL_HOST_PASSWORD = 'jwowyhqitocirfao'
-EMAIL_PORT = 587
+EMAIL_HOST = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 
 
 from pathlib import Path
 
@@ -31,7 +31,7 @@ SECRET_KEY = 'opf(l)!(fc0=d&dt$x*jmv(p95kq=^)mumu8d$-0mfw*r@1#_i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['web','568vm.colab.duke.edu','127.0.0.1','vcm-18086.vm.duke.edu']
+ALLOWED_HOSTS = ['web','568vm.colab.duke.edu','127.0.0.1','']
 
 
 # Application definition
@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'rideshare.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'vuxfnbtn',
-#         'USER' : 'vuxfnbtn',
-#         'PASSWORD' : 'sggNiOc6nq6EcUJt-2i0H6vFDsz2ZVWa',
-#         'HOST' : 'ziggy.db.elephantsql.com',
-#         'PORT' : '5432'
+#         'NAME': '',
+#         'USER' : '',
+#         'PASSWORD' : '',
+#         'HOST' : '',
+#         'PORT' : ''
 #     }
 # }
 DATABASES = {
